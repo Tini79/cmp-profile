@@ -1,0 +1,16 @@
+div.services-section {
+  // height: 100vh;
+  margin-top: 170px;
+  margin-bottom: 100px !important;
+  h1.services-title {
+    margin-bottom: 50px;
+  }
+}
+.services-cards {
+  margin: auto 12px;
+  .service-card {
+  width : 350px;
+  height: 320px;
+  border-radius: 10px !important;
+  }
+}

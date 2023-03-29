@@ -1,0 +1,33 @@
+div.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  div {
+    h1.hero-tagline {
+      font-size: 45px;
+      margin-bottom: 18px !important;
+    }
+
+    button.hero-btn {
+      border-radius: 35px;
+      background-color: var(--bs-secondary-color);
+      color: var(--bs-primary-color);
+      width: 225px;
+      height: 40px;
+      border: none;
+      box-shadow: 0px 0px 4px 0px var(--bs-secondary-color);
+    }
+
+    button.hero-btn:hover {
+      background-color: var(--bs-darker-secondary-color);
+      color: var(--bs-light-text);
+      box-shadow: none;
+    }
+
+    img.hero-img {
+      width: 600px;
+      height: 600px;
+    }
+  }
+}
