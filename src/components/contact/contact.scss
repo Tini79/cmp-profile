@@ -1,7 +1,7 @@
 h1,
 h2,
 label,
-p {
+p, strong {
   color: var(--bs-contact-color) !important;
 }
 
@@ -9,12 +9,16 @@ p {
   background-color: var(--bs-contact-color) !important;
 }
 
+strong {
+  font-size: 35px;
+}
 
 div.contact-title-container {
   padding: 0px 12px !important;
 
-  h1.contact-title {
+  h2.contact-title {
     margin-bottom: 45px;
+    font-size: 45px;
   }
 }
 
@@ -24,7 +28,7 @@ div.contact-title-container {
 
 .contact-form-btn {
   background-color: var(--bs-contact-color);
-  color: var(--bs-darker-primary-color) !important;
+  color: var(--bs-lighter-primary-color);
   border-radius: 36px;
   box-shadow: 0px 0px 4px 0px var(--bs-secondary-color);
   width: 250px;
@@ -32,7 +36,7 @@ div.contact-title-container {
   margin-top: 30px;
 }
 
-.contact-form-btn:hover {
+button.contact-form-btn:hover {
   background-color: var(--bs-darker-secondary-color);
   color: var(--bs-light-text);
   box-shadow: none;
@@ -46,8 +50,9 @@ div.contact-title-container {
     border: solid 1.5px var(--bs-contact-color);
     margin-right: 15px;
   }
+
   button.contact-btn:hover {
     background-color: var(--bs-contact-color);
-    color: var(--bs-darker-primary-color);
+    color: var(--bs-lighter-primary-color);
   }
 }

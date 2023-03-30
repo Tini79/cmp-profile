@@ -20,10 +20,9 @@
 
 nav.navbar {
   padding: 16px 93px;
-  // TODO : tambahkan ukuran navbar pada top hero
-  // position: fixed;
-  // z-index: 9;
-  // width: 100%;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
 }
 
 .nav-link.active,

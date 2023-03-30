@@ -42,13 +42,13 @@
 }
 
 .contact-bg {
-  background-color: var(--bs-darker-primary-color);
+  background-color: var(--bs-lighter-primary-color);
   padding: 120px 0px;
 }
 
 .footer-bg {
   background-color: var(--bs-primary-color);
-  padding-top: 70px;
+  padding: 70px 0px 0px;
 }
 
 .scrolldown-btn {
@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 108%;
+  top: 90%;
   height: 50px;
   width: 50px;
   box-shadow: 0px 0px 4px 0px var(--bs-secondary-color);

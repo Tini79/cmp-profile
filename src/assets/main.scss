@@ -3,7 +3,7 @@
   --bs-secondary-color: #9DBD8B;
   --bs-contact-color: #B4CDA6;
   --bs-darker-secondary-color: #508234;
-  --bs-darker-primary-color: #363636;
+  --bs-lighter-primary-color: #363636;
   --bs-about-color: #111111;
   --bs-light-text: #FFFFFF;
   --bs-copyright-color: #222222;
@@ -36,7 +36,17 @@ h5 {
   font-weight: 700;
 }
 
+p.footer-text,
+p.contact-text,
+p.about-text {
+  font-weight: 300 !important;
+}
+
 .mb-1 {
+  margin-bottom: 15px;
+}
+
+.mb-2 {
   margin-bottom: 25px !important;
 }
 
@@ -53,5 +63,5 @@ div.about-section {
 
 .divider {
   height: 2px;
-  margin: 20px auto;
+  margin: 15px auto;
 }

@@ -2,13 +2,13 @@
   <div class="section contact-section row justify-content-between">
     <div class="d-flex justify-content-end">
       <div class="col-6 contact-title-container">
-        <h1 class="contact-title">Get In Touch With Us</h1>
+        <h2 class="contact-title">Get In Touch With Us</h2>
       </div>
     </div>
     <div class="col-4">
-      <h2>Lorem ipsum dolor</h2>
+      <strong>Lorem ipsum dolor</strong>
       <div class="divider"></div>
-      <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.</p>
       <div class="button-group">
@@ -43,7 +43,7 @@
     </div>
   </div>
 </template>
-<style lang="scss" src="./contact.scss"></style>
+<style scoped lang="scss" src="./contact.scss"></style>
 <script lang="ts">
 export default {
   name: "ContactView",

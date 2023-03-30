@@ -2,7 +2,7 @@
   <div class="hero-section section row">
     <div class="col-6">
       <h1 class="hero-tagline">Seeking more for new idea and solution</h1>
-      <p class="mb-1">Lorem ipsum dolor sit amet, consectetur</p>
+      <p class="mb-2">Lorem ipsum dolor sit amet, consectetur</p>
       <button class="hero-btn">Contact us</button>
     </div>
     <div class="col-6">

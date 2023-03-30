@@ -1,6 +1,6 @@
 <template>
   <div class="services-section section">
-    <h1 class="text-center services-title">Our Services</h1>
+    <h2 class="text-center services-title">Our Services</h2>
     <div class="row justify-content-between services-cards">
       <div class="col-4 card service-card">
         <img src="../../assets/img/hero-img.png" alt="">
