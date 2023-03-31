@@ -3,7 +3,7 @@
     <div class="col-4">
       <div class="d-flex align-items-center mb-1">
         <img src="../../assets/img/hero-img.png" alt="" class="footer-img">
-        <h2>Shoshin Media</h2>
+        <strong class="company-name">Shoshin Media</strong>
       </div>
       <!-- <div class="divider"></div> -->
       <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

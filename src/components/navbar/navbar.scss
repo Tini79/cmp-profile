@@ -28,7 +28,7 @@ nav.navbar {
 .nav-link.active,
 .nav-link:hover,
 .navbar-brand:hover {
-  color: var(--bs-light-text) !important;
+  color: var(--bs-light-color) !important;
 }
 
 .dropdown-menu a:hover {
@@ -45,7 +45,7 @@ nav.navbar {
 }
 
 .nav-item.show #navbarDropdown {
-  color: var(--bs-light-text);
+  color: var(--bs-light-color);
 }
 
 #childDropdownMenu .dropdown-item {

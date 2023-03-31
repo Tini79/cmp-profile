@@ -5,7 +5,7 @@
   --bs-darker-secondary-color: #508234;
   --bs-lighter-primary-color: #363636;
   --bs-about-color: #111111;
-  --bs-light-text: #FFFFFF;
+  --bs-light-color: #FFFFFF;
   --bs-copyright-color: #222222;
 }
 
@@ -22,6 +22,10 @@ label,
 button.btn {
   font-family: 'Lato', sans-serif;
   color: var(--bs-secondary-color)
+}
+
+a {
+  text-decoration: none;
 }
 
 p {

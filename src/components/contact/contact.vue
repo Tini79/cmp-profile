@@ -8,33 +8,34 @@
     <div class="col-4">
       <strong>Lorem ipsum dolor</strong>
       <div class="divider"></div>
-      <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore
         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.</p>
-      <div class="button-group">
-        <button class="btn contact-btn"><i class="fa-solid fa-location-dot"></i></button>
-        <button class="btn contact-btn"><i class="fa-brands fa-whatsapp"></i></button>
-        <button class="btn contact-btn"><i class="fa-brands fa-instagram"></i></button>
-        <button class="btn contact-btn"><i class="fa-regular fa-envelope"></i></button>
+      <div class="button-group d-flex">
+        <div v-for="button in props.contactButton" :key="button.id">
+          <button class="btn contact-btn "><a href=""><i :class="button.buttonName"></i></a></button>
+          <div class="contact-detail"> <a href="">{{ button.buttonDetail }}</a></div>
+        </div>
       </div>
     </div>
     <div class="col-6">
       <form action="">
         <div class="form-input-group">
           <label for="" class="form-label">Name</label>
-          <input type="text" class="form-control">
+          <input type="text" class="form-control contact-form-input">
         </div>
         <div class="form-input-group">
           <label for="" class="form-label">Phone Number</label>
-          <input type="text" class="form-control">
+          <input type="text" class="form-control contact-form-input">
         </div>
         <div class="form-input-group">
           <label for="" class="form-label">Email</label>
-          <input type="email" class="form-control">
+          <input type="email" class="form-control contact-form-input">
         </div>
         <div class="form-input-group">
           <label for="" class="form-label">Message</label>
-          <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+          <textarea name="" id="" cols="30" rows="5" class="form-control contact-form-input"></textarea>
         </div>
         <div class="text-end">
           <button class="btn contact-form-btn">Send</button>
@@ -47,5 +48,13 @@
 <script lang="ts">
 export default {
   name: "ContactView",
+  props: {
+    contactButton: Array
+  },
+  setup(props: any) {
+    return {
+      props
+    }
+  }
 }
-</script>
+</script>k

@@ -22,7 +22,7 @@
   </section>
   <section>
     <div class="contact-bg">
-      <contact-view></contact-view>
+      <contact-view :contactButton="contactButtonData"></contact-view>
     </div>
   </section>
   <footer>
@@ -73,13 +73,13 @@
   box-shadow: none;
 
   i {
-    color: var(--bs-light-text);
+    color: var(--bs-light-color);
   }
 }
 </style>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, reactive } from "vue";
 import NavbarView from "../components/navbar/navbar.vue";
 import HeroView from "../components/hero/hero.vue"
 import AboutView from "../components/about/about.vue"
@@ -95,6 +95,34 @@ export default defineComponent({
     "services-view": ServicesView,
     "contact-view": ContactView,
     "footer-view": FooterView,
+  },
+  setup() {
+    const contactButtonData: any = [
+      {
+        "id": 0,
+        "buttonName": "fa-solid fa-location-dot",
+        "buttonDetail": "asa"
+      },
+      {
+        "id": 1,
+        "buttonName": "fa-brands fa-whatsapp",
+        "buttonDetail": "+62 819-3628-1299"
+      },
+      {
+        "id": 2,
+        "buttonName": "fa-brands fa-instagram",
+        "buttonDetail": "i_g"
+      },
+      {
+        "id": 3,
+        "buttonName": "fa-regular fa-envelope",
+        "buttonDetail": "mail"
+      }
+    ]
+
+    return {
+      contactButtonData
+    }
   }
 });
 

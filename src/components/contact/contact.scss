@@ -1,16 +1,18 @@
 h1,
 h2,
 label,
-p, strong {
+p,
+strong {
   color: var(--bs-contact-color) !important;
 }
 
 .divider {
   background-color: var(--bs-contact-color) !important;
+  margin: 10px 0px;
 }
 
 strong {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 div.contact-title-container {
@@ -24,6 +26,18 @@ div.contact-title-container {
 
 .form-input-group {
   margin-bottom: 20px;
+
+  .contact-form-input {
+    border: 0;
+    background-color: var(--bs-lighter-primary-color);
+    border-bottom: 2px solid var(--bs-contact-color);
+    border-radius: 0px !important;
+    color: var(--bs-contact-color);
+  }
+
+  .contact-form-input:focus {
+    box-shadow: none !important;
+  }
 }
 
 .contact-form-btn {
@@ -38,7 +52,7 @@ div.contact-title-container {
 
 button.contact-form-btn:hover {
   background-color: var(--bs-darker-secondary-color);
-  color: var(--bs-light-text);
+  color: var(--bs-light-color);
   box-shadow: none;
 }
 
@@ -51,8 +65,28 @@ button.contact-form-btn:hover {
     margin-right: 15px;
   }
 
+  div.contact-detail {
+    display: none;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: var(--bs-light-color);
+    transition: margin-top ease 0.2s;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    position: absolute;
+  }
+
   button.contact-btn:hover {
     background-color: var(--bs-contact-color);
     color: var(--bs-lighter-primary-color);
+    a {
+      color: var(--bs-lighter-primary-color);
+    }
+  }
+
+  button.contact-btn:hover~div.contact-detail {
+    display: block;
   }
 }
