@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="#">Shoshin Media</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon-custom"><i class="fa-solid fa-bars"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -13,7 +13,10 @@
         <li class="nav-item">
           <RouterLink class="nav-link" to="/about">About</RouterLink>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <RouterLink class="nav-link" to="/services">Services</RouterLink>
+        </li>
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Services</a>
           <div class="dropdown-menu" id="parentDropdownMenu" aria-labelledby="navbarDropdown">
@@ -30,7 +33,7 @@
             <a class="dropdown-item" href="#">System Development</a>
             <a class="dropdown-item" href="#">Graphic Design</a>
           </div>
-        </li>
+        </li> -->
         <li class="nav-item">
           <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
         </li>

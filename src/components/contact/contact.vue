@@ -1,12 +1,12 @@
 <template>
   <div class="section contact-section row justify-content-between">
-    <div class="d-flex justify-content-end">
-      <div class="col-6 contact-title-container">
+    <div class="d-flex justify-content-lg-end contact-title-field">
+      <div class="col-lg-6 contact-title-container">
         <h2 class="contact-title">Get In Touch With Us</h2>
       </div>
     </div>
-    <div class="col-4">
-      <strong>Lorem ipsum dolor</strong>
+    <div class="col-lg-4">
+      <strong class="contact-us">Contact Us</strong>
       <div class="divider"></div>
       <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore
@@ -14,12 +14,12 @@
         commodo consequat.</p>
       <div class="button-group d-flex">
         <div v-for="button in props.contactButton" :key="button.id">
-          <button class="btn contact-btn "><a href=""><i :class="button.buttonName"></i></a></button>
-          <div class="contact-detail"> <a href="">{{ button.buttonDetail }}</a></div>
+          <a href="" class="btn contact-btn"><i :class="button.buttonName"></i></a>
+          <div class="contact-detail">{{ button.buttonDetail }}</div>
         </div>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-lg-6 contact-form">
       <form action="">
         <div class="form-input-group">
           <label for="" class="form-label">Name</label>
@@ -38,7 +38,7 @@
           <textarea name="" id="" cols="30" rows="5" class="form-control contact-form-input"></textarea>
         </div>
         <div class="text-end">
-          <button class="btn contact-form-btn">Send</button>
+          <button class="contact-form-btn main-btn">Send</button>
         </div>
       </form>
     </div>

@@ -52,17 +52,40 @@ nav.navbar {
   font-size: 14px !important;
 }
 
-@media (min-width: 992px) {
-  nav #navbarNav {
-    display: flex;
-    justify-content: end;
+.navbar-toggler-icon-custom {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--bs-secondary-color);
+}
+
+
+
+// mine
+@media (max-width: 767.98px) {
+  nav.navbar {
+    padding: 10px 35px !important;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
+  nav.navbar {
+    padding: 20px 70px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
 
   nav #navbarNav,
   .dropdown-menu {
     text-align: right;
+  }
+}
+
+// sidebar
+@media (min-width: 992px) {
+  nav #navbarNav {
+    display: flex;
+    justify-content: end;
   }
 }

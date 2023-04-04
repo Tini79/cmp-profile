@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 70px;
+
   span {
     font-size: 14px;
     font-weight: 300;
@@ -24,16 +25,13 @@ li {
 
 span,
 a,
-li, strong{
+li,
+strong {
   color: var(--bs-secondary-color);
 }
 
-strong {
+strong.footer-content {
   font-size: 20px;
-}
-
-strong.company-name {
-  font-size: 30px;
 }
 
 ul {
@@ -59,4 +57,17 @@ h2 {
 .divider.footer {
   width: 50%;
   margin-left: 0px;
+}
+
+@media(max-width: 767.98px) {
+  strong.footer-content {
+    font-size: 16px;
+  }
+
+  span,
+  a,
+  li,
+ p{
+  font-size: 14px;
+ }
 }

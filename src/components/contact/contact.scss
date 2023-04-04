@@ -11,16 +11,11 @@ strong {
   margin: 10px 0px;
 }
 
-strong {
-  font-size: 30px;
-}
-
 div.contact-title-container {
   padding: 0px 12px !important;
 
   h2.contact-title {
     margin-bottom: 45px;
-    font-size: 45px;
   }
 }
 
@@ -43,10 +38,6 @@ div.contact-title-container {
 .contact-form-btn {
   background-color: var(--bs-contact-color);
   color: var(--bs-lighter-primary-color);
-  border-radius: 36px;
-  box-shadow: 0px 0px 4px 0px var(--bs-secondary-color);
-  width: 250px;
-  height: 45px;
   margin-top: 30px;
 }
 
@@ -59,16 +50,20 @@ button.contact-form-btn:hover {
 .button-group {
   margin-top: 50px;
 
-  button.contact-btn {
+  .contact-btn {
     border-radius: 100%;
     border: solid 1.5px var(--bs-contact-color);
     margin-right: 15px;
+    i {
+      color: var(--bs-contact-color);
+    }
   }
 
   div.contact-detail {
     display: none;
     font-size: 12px;
-    font-weight: 300;
+    // font-weight: 300;
+    color: var(--bs-lighter-primary-color);
     background-color: var(--bs-light-color);
     transition: margin-top ease 0.2s;
     margin-top: 5px;
@@ -78,15 +73,36 @@ button.contact-form-btn:hover {
     position: absolute;
   }
 
-  button.contact-btn:hover {
+  .contact-btn:hover {
     background-color: var(--bs-contact-color);
     color: var(--bs-lighter-primary-color);
-    a {
+
+    i {
       color: var(--bs-lighter-primary-color);
     }
   }
 
-  button.contact-btn:hover~div.contact-detail {
+  .contact-btn:hover~div.contact-detail {
     display: block;
+  }
+}
+
+@media(max-width: 767.98px) {
+  // 
+}
+@media(max-width: 991.98px) {
+  .contact-title-container,
+  .contact-title-field {
+    padding: 0px !important;
+  }
+
+  .button-group {
+    margin-top: 30px;
+  }  
+  .contact-form {
+    margin-top: 60px;
+  }
+  .contact-form-btn {
+    margin-top: 10px;
   }
 }

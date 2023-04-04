@@ -6,7 +6,9 @@
   </header>
   <section class="position-relative">
     <div class="hero-bg">
-      <hero-view></hero-view>
+      <!-- <div class="container"> -->
+        <hero-view></hero-view>
+      <!-- </div> -->
     </div>
   </section>
   <div class="d-flex justify-content-center">
@@ -14,20 +16,28 @@
   </div>
   <section>
     <div class="about-bg">
-      <about-view></about-view>
+      <!-- <div class="container"> -->
+        <about-view></about-view>
+      <!-- </div> -->
     </div>
   </section>
   <section>
-    <services-view></services-view>
+    <!-- <div class="container"> -->
+      <services-view></services-view>
+    <!-- </div> -->
   </section>
   <section>
     <div class="contact-bg">
-      <contact-view :contactButton="contactButtonData"></contact-view>
+      <!-- <div class="container"> -->
+        <contact-view :contactButton="contactButtonData"></contact-view>
+      <!-- </div> -->
     </div>
   </section>
   <footer>
     <div class="footer-bg">
-      <footer-view></footer-view>
+      <!-- <div class="container"> -->
+        <footer-view></footer-view>
+      <!-- </div> -->
     </div>
   </footer>
 </template>
@@ -75,6 +85,22 @@
   i {
     color: var(--bs-light-color);
   }
+}
+
+@media (max-width: 767.98px) {  
+  .scrolldown-btn {
+    top: 725px !important;
+  }
+  .contact-bg {
+    padding: 100px 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .scrolldown-btn {
+    top: 1025px;
+  }
+
 }
 </style>
 
