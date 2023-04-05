@@ -8,13 +8,14 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <RouterLink class="nav-link active" to="/">Home</RouterLink>
+          <a href="/" class="nav-link active">Home</a>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/about">About</RouterLink>
+          <!-- <RouterLink class="nav-link" to="#about">About</RouterLink> -->
+          <a href="#about" class="nav-link">About</a>
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/services">Services</RouterLink>
+          <a href="#services" class="nav-link">Services</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -35,7 +36,7 @@
           </div>
         </li> -->
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
+          <a href="#contact" class="nav-link">Contact</a>
         </li>
       </ul>
     </div>

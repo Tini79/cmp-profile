@@ -7,36 +7,36 @@
   <section class="position-relative">
     <div class="hero-bg">
       <!-- <div class="container"> -->
-        <hero-view></hero-view>
+      <hero-view></hero-view>
       <!-- </div> -->
     </div>
   </section>
   <div class="d-flex justify-content-center">
     <div class="position-absolute scrolldown-btn"><i class="fa-solid fa-arrow-down fa-lg"></i></div>
   </div>
-  <section>
+  <section id="about">
     <div class="about-bg">
       <!-- <div class="container"> -->
-        <about-view></about-view>
+      <about-view></about-view>
       <!-- </div> -->
     </div>
   </section>
-  <section>
+  <section id="services">
     <!-- <div class="container"> -->
-      <services-view></services-view>
+    <services-view></services-view>
     <!-- </div> -->
   </section>
-  <section>
+  <section id="contact">
     <div class="contact-bg">
       <!-- <div class="container"> -->
-        <contact-view :contactButton="contactButtonData"></contact-view>
+      <contact-view :contactButton="contactButtonData"></contact-view>
       <!-- </div> -->
     </div>
   </section>
   <footer>
     <div class="footer-bg">
       <!-- <div class="container"> -->
-        <footer-view></footer-view>
+      <footer-view></footer-view>
       <!-- </div> -->
     </div>
   </footer>
@@ -44,11 +44,18 @@
 
 <style lang="scss">
 .hero-bg {
-  background-color: var(--bs-primary-color);
+  // background-color: var(--bs-primary-color);
+  background-image: linear-gradient(var(--bs-primary-color), var(--bs-about-color));
+  // background-image: linear-gradient(var(--bs-primary-color), white);
 }
 
 .about-bg {
   background-color: var(--bs-about-color);
+}
+
+#services {
+  margin-top: 150px;
+  margin-bottom: 100px !important;
 }
 
 .contact-bg {
@@ -87,10 +94,11 @@
   }
 }
 
-@media (max-width: 767.98px) {  
+@media (max-width: 767.98px) {
   .scrolldown-btn {
     top: 725px !important;
   }
+
   .contact-bg {
     padding: 100px 0px;
   }
@@ -100,12 +108,11 @@
   .scrolldown-btn {
     top: 1025px;
   }
-
 }
 </style>
 
 <script lang="ts">
-import { defineComponent, reactive } from "vue";
+import { defineComponent } from "vue";
 import NavbarView from "../components/navbar/navbar.vue";
 import HeroView from "../components/hero/hero.vue"
 import AboutView from "../components/about/about.vue"

@@ -7,6 +7,7 @@
   --bs-about-color: #111111;
   --bs-light-color: #FFFFFF;
   --bs-copyright-color: #222222;
+  --bs-blue-color: #2B27F6;
 }
 
 // fonts area
@@ -27,6 +28,10 @@ button.btn {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--bs-light-color);
 }
 
 p {

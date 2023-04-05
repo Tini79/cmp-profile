@@ -58,22 +58,20 @@ nav.navbar {
   color: var(--bs-secondary-color);
 }
 
-
-
 // mine
 @media (max-width: 767.98px) {
   nav.navbar {
     padding: 10px 35px !important;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
   }
 }
 
 @media (max-width: 991.98px) {
   nav.navbar {
     padding: 20px 70px;
-  }
-
-  .navbar-brand {
-    font-size: 18px;
   }
 
   nav #navbarNav,
