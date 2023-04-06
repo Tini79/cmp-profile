@@ -3,15 +3,19 @@ div.hero-section {
     margin-bottom: 18px !important;
   }
 
-  button.hero-btn {
+  .hero-btn {
     background-color: var(--bs-secondary-color);
+
     color: var(--bs-primary-color);
+
   }
 
-  button.hero-btn:hover {
+  .hero-btn:hover {
     background-color: var(--bs-darker-secondary-color);
-    color: var(--bs-light-color);
     box-shadow: none;
+
+    color: var(--bs-light-color);
+
   }
 
   img.hero-img {
@@ -40,6 +44,11 @@ div.hero-section {
     .hero-image-container {
       display: flex;
       justify-content: center;
+    }
+
+    img.hero-img {
+      width: 100% !important;
+      height: 100% !important;
     }
   }
 }

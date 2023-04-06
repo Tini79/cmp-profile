@@ -2,7 +2,7 @@
   <home-view></home-view>
 </template>
 <script lang="ts">
-import HomeView from './views/HomeView.vue';
+import HomeView from './views/home-view.vue';
 export default {
   components: { "home-view": HomeView }
 }

@@ -19,21 +19,25 @@ div.contact-title-container {
   }
 }
 
-.form-input-group {
-  margin-bottom: 13px;
+// .form-input-group {
+//   margin-bottom: 20px;
 
-  .contact-form-input {
-    border: 0;
-    background-color: var(--bs-lighter-primary-color);
-    border-bottom: 2px solid var(--bs-contact-color);
-    border-radius: 0px !important;
-    color: var(--bs-contact-color);
-  }
+//   .contact-form-input {
+//     border: 0;
+//     background-color: var(--bs-lighter-primary-color);
+//     border-bottom: 2px solid var(--bs-contact-color);
+//     border-radius: 0px !important;
+//     color: var(--bs-contact-color);
+//   }
 
-  .contact-form-input:focus {
-    box-shadow: none !important;
-  }
-}
+//   .is-invalid {
+//     border-bottom: 2px solid #dc3545;
+//   }
+
+//   .contact-form-input:focus {
+//     box-shadow: none !important;
+//   }
+// }
 
 .contact-form-btn {
   background-color: var(--bs-contact-color);

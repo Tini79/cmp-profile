@@ -44,9 +44,7 @@
 
 <style lang="scss">
 .hero-bg {
-  // background-color: var(--bs-primary-color);
   background-image: linear-gradient(var(--bs-primary-color), var(--bs-about-color));
-  // background-image: linear-gradient(var(--bs-primary-color), white);
 }
 
 .about-bg {
@@ -97,6 +95,7 @@
 @media (max-width: 767.98px) {
   .scrolldown-btn {
     top: 725px !important;
+        // top: calc(100vh - 5vh) !important;
   }
 
   .contact-bg {
@@ -121,6 +120,7 @@ import ContactView from "../components/contact/contact.vue"
 import FooterView from "../components/footer/footer.vue"
 
 export default defineComponent({
+  name: "HomeView",
   components: {
     "navbar-view": NavbarView,
     "hero-view": HeroView,

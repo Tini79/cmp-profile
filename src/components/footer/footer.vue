@@ -5,29 +5,26 @@
         <!-- <img src="../../assets/img/hero-img.png" alt="" class="footer-img"> -->
         <strong class="company-name">Shoshin Media</strong>
       </div>
-      <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.</p>
+      <p class="footer-text">Shoshin Media is a digital agency located in Bali, Indonesia. We provide a technology as our main service to help you accelerate your business and solve your business problem. We will work through with you to get the best result which fits your need for the growth of your business.</p>
     </div>
     <div class="col-lg-5 row justify-content-end">
       <div class="col-lg-5">
         <strong class="footer-content">Sitemap</strong>
         <div class="divider footer"></div>
         <ul>
-          <li> <a href="">Home</a></li>
-          <li> <a href="">About</a></li>
-          <li> <a href="">Services</a></li>
-          <li> <a href="">Contact</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
       <div class="col-lg-5">
         <strong class="footer-content">Services</strong>
         <div class="divider footer"></div>
         <ul>
-          <li> <a href=""></a> Website Development</li>
-          <li> <a href=""></a> System Development</li>
-          <li> <a href=""></a> Graphic Design</li>
+          <li><a href="">Website Development</a></li>
+          <li><a href="">System Development</a></li>
+          <li><a href="">Graphic Design</a></li>
         </ul>
       </div>
     </div>

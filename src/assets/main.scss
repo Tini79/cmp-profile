@@ -90,16 +90,13 @@ div.about-section {
   margin: 15px auto;
 }
 
-button.main-btn {
+.main-btn {
   width: 225px;
   border: none;
   box-shadow: 0px 0px 4px 0px var(--bs-secondary-color);
   border-radius: 35px;
   height: 40px;
 }
-
-@media (max-width: 575.98px) {}
-
 
 @media (max-width: 767.98px) {
 
@@ -133,11 +130,27 @@ button.main-btn {
   }
 }
 
-@media (max-width: 991.98px) {
-  .section {
-    margin: auto 60px;
+.form-input-group {
+  margin-bottom: 20px;
+
+  .contact-form-input {
+    border: 0;
+    background-color: var(--bs-lighter-primary-color);
+    border-bottom: 2px solid var(--bs-contact-color);
+    border-radius: 0px !important;
+    color: var(--bs-contact-color);
   }
 
+  .is-invalid {
+    border-bottom: 2px solid #dc3545;
+  }
+
+  .contact-form-input:focus {
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 991.98px) {
   div.hero-section,
   div.about-section {
     height: 1100px;
