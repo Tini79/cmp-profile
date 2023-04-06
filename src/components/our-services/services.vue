@@ -4,17 +4,17 @@
     <!-- <div class="container"> -->
       <div class="row justify-content-between services-cards">
         <div class="col-lg-4 card service-card">
-          <img src="../../assets/img/hero-img.png" alt="">
+          <img src="../../assets/img/website-development.png" alt="">
           <div class="overlay d-flex align-items-end">
             <div class="service-content">
-              <strong>Web Development</strong>
+              <strong>Website Development</strong>
               <div class="divider"></div>
               <p>Lorem ipsum dolor sit amet, consectetur adipscing elit.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 card service-card">
-          <img src="../../assets/img/hero-img.png" alt="">
+          <img src="../../assets/img/system-development.png" alt="">
           <div class="overlay d-flex align-items-end">
             <div class="service-content">
               <strong>System Development</strong>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-lg-4 card service-card">
-          <img src="../../assets/img/hero-img.png" alt="">
+          <img src="../../assets/img/graphic-designer.png" alt="">
           <div class="overlay d-flex align-items-end">
             <div class="service-content">
               <strong>Graphic Design</strong>

@@ -2,7 +2,7 @@
   <div class="section footer-section row justify-content-between">
     <div class="col-lg-4">
       <div class="d-flex align-items-center mb-1">
-        <img src="../../assets/img/hero-img.png" alt="" class="footer-img">
+        <!-- <img src="../../assets/img/hero-img.png" alt="" class="footer-img"> -->
         <strong class="company-name">Shoshin Media</strong>
       </div>
       <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

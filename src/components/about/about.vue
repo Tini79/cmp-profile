@@ -3,7 +3,7 @@
   <div class="d-flex align-items-center">
     <div class="about-section section row">
       <div class="col-lg-6 about-image-container">
-        <img src="../../assets/img/hero-img.png" class="hero-img" alt="">
+        <img src="../../assets/img/about-us-image.png" class="hero-img" alt="Business Merger">
       </div>
       <div class="col-lg-6 mobile-about-content">
         <h2 class="about-title">Why You Should Choose Us?</h2>

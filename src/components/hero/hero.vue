@@ -8,7 +8,7 @@
           <button class="hero-btn main-btn">Contact us</button>
         </div>
         <div class="col-lg-6 hero-image-container">
-          <img src="../../assets/img/hero-img.png" class="hero-img" alt="">
+          <img src="../../assets/img/hero-image.png" class="hero-img" alt="Software Integration">
         </div>
       </div>
     </div>
